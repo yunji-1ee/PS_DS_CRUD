@@ -1,4 +1,4 @@
-CC = mingw32-make 
+CC = mingw32-g++
 SRC = main.cpp card.cpp cardManager.cpp
 OBJ = $(SRC:.c=.o)
 EXEC = main
