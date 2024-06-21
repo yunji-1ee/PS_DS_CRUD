@@ -4,6 +4,9 @@
 #include "card.h"
 #include <iostream>
 #include <vector>
+#include <map>
+#include <string>
+
 using namespace std;
 
 class CardManager{
@@ -28,6 +31,9 @@ public:
     void sortByCode();
     void addCard(); // Add a card
     void editCard(); // Change grade of a card
+
+    //새로운 기능 추가 : 카드 삭제하기
+    bool removeCard(const std::string& courseCode);
 
 };
 
